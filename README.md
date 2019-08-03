@@ -1,4 +1,4 @@
-# sld-live
+# slb-live
 
 ## Project setup
 ```
