@@ -1,5 +1,6 @@
+
 <template>
-  <v-app >
+  <v-app>
     <Navbar/>
 
     <v-content class="mx-4 mb-4">

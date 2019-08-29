@@ -1,4 +1,5 @@
 <template>
+   
   <v-div class="home">
     <v-container>
       <v-layout align-center justify-center>
@@ -9,16 +10,17 @@
           max-width="800"
           max-height="600"
         ></v-img>
-     </v-layout>
+     </v-layout>  
     </v-container>
-
-  </v-div>
+   </v-div>
+ 
 </template>
 
 <script>
 
 export default {
     data() {
+      return 
     }
 };
 

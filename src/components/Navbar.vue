@@ -1,16 +1,16 @@
 <template>
     <nav>
-        <v-toolbar app dark flat class="primary">
+        <v-toolbar color="white" dark class="primary">
             <v-toolbar-title>SLB Live-Stream</v-toolbar-title>
             <v-spacer></v-spacer>
 
             <v-toolbar-items>
-              <v-btn dark flat color="primary" depressed to="/">Home</v-btn>
-              <v-btn dark flat color="primary" depressed to="/about">About</v-btn>
-              <v-btn dark flat color="primary" depressed to="/artists">Artists</v-btn>
-              <v-btn dark flat color="primary" depressed to="/schedule">Schedule</v-btn>  
-              <v-btn dark flat color="primary" depressed to="/registerform">Register</v-btn>
-              <v-btn dark flat color="primary" depressed to="/loginform">Login</v-btn>
+              <v-btn color="primary" depressed to="/">Home</v-btn>
+              <v-btn color="primary" depressed to="/about">About</v-btn>
+              <v-btn color="primary" depressed to="/artists">Artists</v-btn>
+              <v-btn color="primary" depressed to="/schedule">Schedule</v-btn>  
+              <v-btn color="primary" depressed to="/registerform">Register</v-btn>
+              <v-btn color="primary" depressed to="/loginform">Login</v-btn>
             </v-toolbar-items>
 
             <template v-if="$vuetify.breakpoint.smAndUp">
